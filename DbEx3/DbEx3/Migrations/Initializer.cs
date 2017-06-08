@@ -38,7 +38,7 @@ namespace DbEx3.Migrations
 
         internal static void SeedUser(ApplicationDbContext context)
         {
-            string userName = "Bugs Bunny";
+            string userName = "KIni";
             string role = "Owner";
             var userRole = new IdentityRole { Id = new CustomId().ToString(), Name = role };
             context.Roles.Add(userRole);
@@ -49,7 +49,7 @@ namespace DbEx3.Migrations
             {
                 UserName = userName,
                 PasswordHash = hasher.HashPassword("1"),
-                Email = "kikki@domain.com",
+                Email = "pici@domain.com",
                 EmailConfirmed = true,
                 SecurityStamp = new CustomId().ToString()
             };

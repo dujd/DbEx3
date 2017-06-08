@@ -7,13 +7,13 @@ namespace DbEx3.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class AddFinalMig1 : IMigrationMetadata
+    public sealed partial class AdFinalMD : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddFinalMig1));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AdFinalMD));
         
         string IMigrationMetadata.Id
         {
-            get { return "201706081413268_AddFinalMig1"; }
+            get { return "201706081426204_AdFinalMD"; }
         }
         
         string IMigrationMetadata.Source
