@@ -194,11 +194,16 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201705191124452_AddedYactoSQLServer.cs" />
-    <Compile Include="Migrations\201705191124452_AddedYactoSQLServer.Designer.cs">
-      <DependentUpon>201705191124452_AddedYactoSQLServer.cs</DependentUpon>
+    <Compile Include="Migrations\201706081411427_AddFinalMig.cs" />
+    <Compile Include="Migrations\201706081411427_AddFinalMig.Designer.cs">
+      <DependentUpon>201706081411427_AddFinalMig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706081413268_AddFinalMig1.cs" />
+    <Compile Include="Migrations\201706081413268_AddFinalMig1.Designer.cs">
+      <DependentUpon>201706081413268_AddFinalMig1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migrations\Initializer.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -287,8 +292,17 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201705191124452_AddedYactoSQLServer.resx">
-      <DependentUpon>201705191124452_AddedYactoSQLServer.cs</DependentUpon>
+    <ProjectReference Include="..\ClassLibrary2\DbEx3.Common.csproj">
+      <Project>{EAFDB9D3-1066-40F2-8416-349F641B35B4}</Project>
+      <Name>DbEx3.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201706081411427_AddFinalMig.resx">
+      <DependentUpon>201706081411427_AddFinalMig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706081413268_AddFinalMig1.resx">
+      <DependentUpon>201706081413268_AddFinalMig1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
