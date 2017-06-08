@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace DbEx3.Models
+namespace DbEx3.Gateaway.Models
 {
     public class ExternalLoginConfirmationViewModel
     {
@@ -49,9 +49,9 @@ namespace DbEx3.Models
     public class LoginViewModel
     {
         [Required]
-        [Display(Name = "Username")]
-        
-        public string Username { get; set; }
+        [Display(Name = "Email")]
+        [EmailAddress]
+        public string Email { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
@@ -64,10 +64,6 @@ namespace DbEx3.Models
 
     public class RegisterViewModel
     {
-        [Required]
-        [Display(Name = "Username")]
-        public string Username { get; set; }
-
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]
