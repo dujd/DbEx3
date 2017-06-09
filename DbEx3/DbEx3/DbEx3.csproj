@@ -194,9 +194,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201706081426204_AdFinalMD.cs" />
-    <Compile Include="Migrations\201706081426204_AdFinalMD.Designer.cs">
-      <DependentUpon>201706081426204_AdFinalMD.cs</DependentUpon>
+    <Compile Include="Migrations\201706090821323_yactoserverfinal.cs" />
+    <Compile Include="Migrations\201706090821323_yactoserverfinal.Designer.cs">
+      <DependentUpon>201706090821323_yactoserverfinal.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\Initializer.cs" />
@@ -294,8 +294,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201706081426204_AdFinalMD.resx">
-      <DependentUpon>201706081426204_AdFinalMD.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201706090821323_yactoserverfinal.resx">
+      <DependentUpon>201706090821323_yactoserverfinal.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -7,13 +7,13 @@ namespace DbEx3.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class AdFinalMD : IMigrationMetadata
+    public sealed partial class yactoserverfinal : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AdFinalMD));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(yactoserverfinal));
         
         string IMigrationMetadata.Id
         {
-            get { return "201706081426204_AdFinalMD"; }
+            get { return "201706090821323_yactoserverfinal"; }
         }
         
         string IMigrationMetadata.Source

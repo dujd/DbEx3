@@ -38,8 +38,8 @@ namespace DbEx3.Migrations
 
         internal static void SeedUser(ApplicationDbContext context)
         {
-            string userName = "KIni";
-            string role = "Owner";
+            string userName = "pipi";
+            string role = "Boss";
             var userRole = new IdentityRole { Id = new CustomId().ToString(), Name = role };
             context.Roles.Add(userRole);
 
